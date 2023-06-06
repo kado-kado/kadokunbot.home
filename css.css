@@ -8,7 +8,7 @@ font-family: 'Zen Maru Gothic', sans-serif;
    	font-family: "abc", cursive;
 }
 
-.nav {
+nav {
   width: 100%;
   height: 70px;
   background-color: Black;
@@ -17,25 +17,13 @@ font-family: 'Zen Maru Gothic', sans-serif;
    font-family: 'Square Peg', cursive;
    background-image: url("006.png")
 }
-.ul {
+ul {
   display: flex;
 }
-.li {
+li {
   list-style: none;
 }
-.a1{
-  display: block;
-  text-decoration: none;
-  color: white;
-  margin-right: 35px;
-}
-.a{
-   display: block;
-  text-decoration: none;
-  color: white;
-  margin-right: 35px;
-}
-.nav {
+nav {
   position: fixed;
   top: 0;
   left: 0;
