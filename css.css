@@ -1,0 +1,44 @@
+@font-face {
+	font-family: "abc";
+	src:url('mushin.ttf')  format('truetype'),
+}
+body {
+   font-family: 'Square Peg', cursive;
+font-family: 'Zen Maru Gothic', sans-serif;
+   	font-family: "abc", cursive;
+}
+.nav {
+  width: 100%;
+  height: 70px;
+  background-color: Black;
+  padding-top: 5px;
+  box-sizing: border-box;
+   font-family: 'Square Peg', cursive;
+   background-image: url("006.png")
+}
+.ul {
+  display: flex;
+}
+.li {
+  list-style: none;
+}
+.a1{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+}
+.a{
+   display: block;
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+a {
+      text-decoration:none;
+}
