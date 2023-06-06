@@ -6,6 +6,9 @@ body {
    font-family: 'Square Peg', cursive;
 font-family: 'Zen Maru Gothic', sans-serif;
    	font-family: "abc", cursive;
+    margin-bottom: 0;
+}
+
 }
 .nav {
   width: 100%;
