@@ -7,8 +7,7 @@ body {
 font-family: 'Zen Maru Gothic', sans-serif;
    	font-family: "abc", cursive;
 }
-
-nav {
+.nav {
   width: 100%;
   height: 70px;
   background-color: Black;
@@ -17,17 +16,17 @@ nav {
    font-family: 'Square Peg', cursive;
    background-image: url("006.png")
 }
-ul {
+.ul {
   display: flex;
-	padding-left:0
 }
-li {
+.li {
   list-style: none;
 }
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
+.a1{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
 }
 .a{
    display: block;
@@ -35,9 +34,16 @@ nav {
   color: white;
   margin-right: 35px;
 }
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
 a {
       text-decoration:none;
-	color:inherit;
+}
+span {
+ color: black;  
 }
 #langChenge input[type="radio"]{
   display    : none;
@@ -68,4 +74,17 @@ a {
 }
 #langZh:checked ~ label[for="langZh"] {
   background : #ffa64d;
+}
+.cs1 {
+   text-decoration:none;
+   display: block;
+  text-decoration: none;
+  color: black;
+  margin-right: 35px;
+   font-family: 'Square Peg', cursive;
+   font-family: 'Zen Maru Gothic', sans-serif;
+     background-color: white;
+}
+html{
+    scroll-behavior: smooth;
 }
