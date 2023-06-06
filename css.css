@@ -28,7 +28,15 @@ nav {
   top: 0;
   left: 0;
 }
-
+.a{
+   display: block;
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+}
+a {
+      text-decoration:none;
+}
 #langChenge input[type="radio"]{
   display    : none;
 }
