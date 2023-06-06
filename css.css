@@ -31,7 +31,7 @@ font-family: 'Zen Maru Gothic', sans-serif;
 .a{
    display: block;
   text-decoration: none;
-  color: white;
+  color: WHITE;
   margin-right: 35px;
 }
 .nav {
@@ -84,10 +84,4 @@ span {
    font-family: 'Square Peg', cursive;
    font-family: 'Zen Maru Gothic', sans-serif;
      background-color: white;
-}
-html{
-    scroll-behavior: smooth;
-}
-.NO p {
-    margin-bottom: 0;
 }
